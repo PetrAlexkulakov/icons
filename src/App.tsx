@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      {randomIcon && <FontAwesomeIcon icon={randomIcon} />}
+      {randomIcon && <FontAwesomeIcon className='icon' icon={randomIcon} />}
       <button onClick={handleClick}>Show Random Icon</button>
     </>
   );
